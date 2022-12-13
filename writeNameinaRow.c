@@ -10,8 +10,8 @@ int main(){
      
      
  }
-     printf("Akif")
+     printf("Akif");
  }
  
-    
+    return 0;
 }
