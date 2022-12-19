@@ -1,14 +1,6 @@
+#include <stdio.h>
 
-
-//bu code hata bulunmaktadir ve calismamaktadir
-//hatayi bulup duzeltiniz
-
-
-enum ArrayType{
-    INT,
-    FLOAT,
-    CHAR
-};
+enum ArrayType{INT,FLOAT,CHAR};
 
 typedef struct{
     void *array;
@@ -47,11 +39,12 @@ int main(){
     Array arr2 = {b,5,FLOAT};
     Array arr3 = {c,5,CHAR};
     printArray(&arr1);
-    printf("");
+    printf(" ");
     printArray(&arr2);
-    printf("");
+    printf(" ");
     printArray(&arr3);
     return 0;
     
 
 }
+
