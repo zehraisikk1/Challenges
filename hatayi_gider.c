@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 enum ArrayType{INT,FLOAT,CHAR};
 
 typedef struct{
@@ -44,7 +45,7 @@ int main(){
     printf(" ");
     printArray(&arr3);
     return 0;
-    
+}  
 
 }
 
